@@ -1,7 +1,6 @@
 name: pipeline
 
-on: push[master, main]
-      pull_request[master, main]
+on: push
 
 jobs:
   test:
